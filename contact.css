@@ -1,0 +1,342 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+}
+.container{
+width: 1024px;
+padding: 10px;
+margin: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    
+}
+/* .logo{
+  flex-grow:1;
+  width: 200px;
+}
+.nav{
+    flex-grow:6;
+} */
+.container img{
+width:70px;
+}
+.container p{
+    color: rgb(39, 39, 39);
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+ul li{
+    display: inline-block;
+    padding:10px;
+    text-decoration: none;
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
+    width: fit-content;
+  
+   
+}
+ul li a{
+    padding:10px;
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+}
+
+ul li:hover a{
+    background-color: aqua;
+    color: white;
+  
+}
+button{
+    background-color: orangered;
+    margin-left: 10px;
+    color: white;
+    width: 70px;
+    border: 1px solid white;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid orangered;
+    color: black;
+}
+
+.content1{
+   text-align: center;
+    background-image: url(./images/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+    position: relative;
+}
+.c{
+    margin-top: 70px;
+
+}
+.c p.o{
+  
+    position: absolute;
+    bottom:-20px;
+    left:45%;
+    background-color: rgb(125, 150, 251);
+    color: white;
+    display:inline;
+    padding: 10px;
+   
+
+}
+h1{
+    font-size:45px;
+}
+.content1 p{
+    text-align: center;
+    color: white;
+    column-gap: normal;
+   
+}
+.content2{
+    background-color: rgb(225, 221, 221);
+}
+.content2 img{
+    display:inline;
+    margin-top: 15px;
+    margin-left: 15px;
+   
+}
+
+ .content2 h1{
+    margin-top: 10px;
+   font-size:30px;
+   text-align: center;
+   color: rgb(125, 150, 251);
+}
+span{
+    color: red;
+}
+.content2 input{
+    margin-top: 10px;
+    width: 300px;
+margin-bottom: 10px;
+
+}
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus   {
+    border: 3px solid orangered;
+    outline: none;
+  }
+/* .content2 .input:focus{
+    border: 3px solid orangered;
+} */
+.f label{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    
+}
+.f{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0;
+    position: relative;
+   
+   
+}
+.f::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height:500px;
+    background-color: #a4a7aa;
+    left: 500px;
+}
+textarea{
+    width: 300px;
+    height: 200px;
+}
+.f img{
+    margin-top: 0;
+    border: 2px solid rgb(163, 162, 162);
+    width: 100px;
+}
+.code1{
+    display: flex;
+}
+.content2 .code{
+    width: 150px;
+    text-align: center;
+}
+.content2 button{
+    background-color:rgb(125, 150, 251);
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 200px;
+   
+}
+#vertical{
+    width: 10px;
+    height: 500px;
+    background-color: silver;
+    margin-left: 500px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.f2 span{
+    color: blue;
+}
+.f2 .email{
+    color: blue;
+}
+.f2 img{
+    width: 30px;
+    background-color: #c0c1c1;
+}
+.f2 p{
+    float: right;
+}
+.im{
+    margin-bottom: 30px;
+}
+.map img{
+    width: 300px;
+}
+.sq{
+    display: flex;
+ justify-content: space-between;
+ width: 200px;
+
+}
+.box {
+    height: 20px;
+    width: 20px;
+   justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  
+}
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  .yellow{
+    background-color: yellow;
+  }
+  .orange{
+    background-color: orangered;
+  }
+
+.content6{
+    background-color: #2E3E4E;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer h1{
+    color: orangered;
+    font-size: 20px;
+   
+}
+.footer p{
+    color: rgb(227, 225, 225);
+    font-size: 10px;
+    opacity: .5;
+    margin-left: 0;
+    margin-bottom: 5px;
+
+}
+.footer a{
+    margin-left: 0px;
+    margin-top: 5px;
+    color: rgb(140, 140, 250);
+}
+.footer hr{
+    border: 0.1px solid rgb(191, 189, 189);
+}
+.f2{
+    width: 250px;
+}
+.f2 input{
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.f2 button{
+    background-color:rgb(125, 150, 251);
+    padding: 5px;
+    margin-left: 130px;
+    margin-top: 5px;
+}
+.f2 label{
+    color:rgb(140, 140, 250);
+}
+.f3{
+    width: 200px;
+ 
+}
+.f3 p,
+.f3 a{
+    margin-top: -50px;
+    margin-left:60px;
+    float:left;
+    margin-bottom: 5px;
+}
+.f3 hr{
+    margin-top: 0px;
+}
+.f3 img{
+    display:block;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.f4 img{
+    margin-top: 30px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-bottom: 5px;
+}
+.f4 p{
+    margin-top: -30px;
+    margin-left: 30px;
+    float: right;
+}
